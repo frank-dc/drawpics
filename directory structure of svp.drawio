@@ -1,11 +1,125 @@
-<mxfile host="app.diagrams.net" modified="2022-06-17T08:50:14.420Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="VwVr8Bs52sj2D5K2vL3V" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-27T06:50:08.845Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="gEZA3_ssBs-ziV6IPmht" version="20.0.2" type="github">
   <diagram id="AaV7vf_FaJcK-aO9YxgY" name="Page-1">
-    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DRwPy5ZB0MJjWgXkHz4k-1" value="&lt;p&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;├── apps&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;│&amp;nbsp; &amp;nbsp;├── assets&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;│&amp;nbsp; &amp;nbsp;├── binary&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;│&amp;nbsp; &amp;nbsp;├── commapi&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;│&amp;nbsp; &amp;nbsp;├── container&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;│&amp;nbsp; &amp;nbsp;├── custom&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;│&amp;nbsp; &amp;nbsp;├── elk&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;│&amp;nbsp; &amp;nbsp;├── home&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;│&amp;nbsp; &amp;nbsp;├── jenkinsrelease&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;│&amp;nbsp; &amp;nbsp;├── release&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;│&amp;nbsp; &amp;nbsp;├── test_app&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;│&amp;nbsp; &amp;nbsp;├── tool&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;│&amp;nbsp; &amp;nbsp;└── users&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;├── cronjobs&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;├── db_tools&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;├── external_data&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;├── extra_apps&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;│&amp;nbsp; &amp;nbsp;├── DjangoUeditor&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;│&amp;nbsp; &amp;nbsp;└── xadmin&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;├── logs&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;├── media&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;│&amp;nbsp; &amp;nbsp;├── avatar&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;│&amp;nbsp; &amp;nbsp;└── release_scripts&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;├── mix_tools&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;│&amp;nbsp; &amp;nbsp;├── dns_sdk&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;├── small_platform&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;├── static&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;│&amp;nbsp; &amp;nbsp;├── axios&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;│&amp;nbsp; &amp;nbsp;├── css&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;│&amp;nbsp; &amp;nbsp;├── font-awesome&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;│&amp;nbsp; &amp;nbsp;├── fonts&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;│&amp;nbsp; &amp;nbsp;├── image&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;│&amp;nbsp; &amp;nbsp;├── js&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;│&amp;nbsp; &amp;nbsp;└── layuiadmin&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;├── templates&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;└── test&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="30" width="450" height="680" as="geometry" />
+        <mxCell id="PtKETALLN2fyuNssEaAm-1" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;2020.9 = +2.0209 * 10&lt;sup style=&quot;&quot;&gt;3&lt;/sup&gt;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="130" width="520" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-2" value="" style="endArrow=classic;html=1;rounded=0;fontSize=48;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="80" as="sourcePoint" />
+            <mxPoint x="370" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-3" value="" style="endArrow=classic;html=1;rounded=0;fontSize=48;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="280" as="sourcePoint" />
+            <mxPoint x="450" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-4" value="" style="endArrow=none;html=1;rounded=0;fontSize=48;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="200" as="sourcePoint" />
+            <mxPoint x="530" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-5" value="" style="endArrow=none;html=1;rounded=0;fontSize=48;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="200" as="sourcePoint" />
+            <mxPoint x="630" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-6" value="" style="endArrow=classic;html=1;rounded=0;fontSize=48;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="280" as="sourcePoint" />
+            <mxPoint x="610" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=48;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="100" as="sourcePoint" />
+            <mxPoint x="650" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-8" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 18px;&quot;&gt;符号(sign)&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=48;" vertex="1" parent="1">
+          <mxGeometry x="320" y="20" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-9" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 18px;&quot;&gt;尾数(mantissa)&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=48;" vertex="1" parent="1">
+          <mxGeometry x="380" y="250" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-10" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 18px;&quot;&gt;基数(base)&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=48;" vertex="1" parent="1">
+          <mxGeometry x="555" y="250" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-11" value="&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 18px;&quot;&gt;指数(exponent)&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=48;" vertex="1" parent="1">
+          <mxGeometry x="620" y="40" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-14" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;fontSize=20;fontColor=#000000;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="150" y="450" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-16" value="双精度浮点数（64位）" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="170" y="450" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-26" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;符号部分&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="140" y="830" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-27" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;尾数部分&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="275" y="830" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-28" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;指数部分&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="412.5" y="830" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-29" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;fontSize=20;fontColor=#000000;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="150" y="720" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-30" value="单精度浮点数（32位）" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="170" y="720" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-34" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1位&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="770" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-35" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;23位&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="275" y="770" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-36" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;8位&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="427.5" y="770" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-37" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;fontSize=14;fontColor=#000000;strokeWidth=3;fillOpacity=100;labelPadding=0;" vertex="1" parent="1">
+          <mxGeometry x="167.5" y="810" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-38" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;fontSize=14;fontColor=#000000;strokeWidth=3;fillOpacity=100;labelPadding=0;" vertex="1" parent="1">
+          <mxGeometry x="177.5" y="810" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-39" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;fontSize=14;fontColor=#000000;strokeWidth=3;fillOpacity=100;labelPadding=0;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="810" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-40" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;符号部分&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="135" y="550" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-41" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;尾数部分&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="432.75" y="550" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-42" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;指数部分&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="712.5" y="550" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-43" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1位&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="490" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-44" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;52位&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="447.75" y="490" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-45" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;11位&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="728.75" y="490" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-46" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;fontSize=14;fontColor=#000000;strokeWidth=3;fillOpacity=100;labelPadding=0;" vertex="1" parent="1">
+          <mxGeometry x="167.5" y="530" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-47" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;fontSize=14;fontColor=#000000;strokeWidth=3;fillOpacity=100;labelPadding=0;" vertex="1" parent="1">
+          <mxGeometry x="177.5" y="530" width="520" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PtKETALLN2fyuNssEaAm-48" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;fontSize=14;fontColor=#000000;strokeWidth=3;fillOpacity=100;labelPadding=0;" vertex="1" parent="1">
+          <mxGeometry x="697.5" y="530" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
